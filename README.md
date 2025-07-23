@@ -27,14 +27,20 @@ Apart from the core goals, the following enhancements were implemented:
 
 ---
 
+## Open Source Software for sending commands via USB/Serial
+
+The open source software used to send commands to the arduino can be downloaded from the link: https://drive.google.com/drive/folders/155aWvKH5jcQ96tFvs-LeDclDERoTMNEt 
+
+Once extracted run the file named : RoboticArm2024PROCESSING_English_
+
 ## 🗂️ Repository Contents
 
 | File/Folder                | Description                                                   |
 |---------------------------|---------------------------------------------------------------|
-| `Arduino_Code/`           | Arduino sketches for interpreting commands and controlling motors |
-| `Windows_Software/`       | Open-source control software for sending commands via USB/Serial |
-| `Videos/Gripper_Test.mp4` | Demonstration of gripper actuation and grasping capability    |
-| `Videos/Pick_Place.mp4`   | Full demonstration of pick and place routine                  |
+| `Robotic_arm_code_working_on_Commands_from_computer.ino` | Arduino sketches for interpreting commands and controlling motors |
+| `Open Source Software for sending commands via USB/Serial` | Open-source control software for sending commands via USB/Serial |
+| `Robotic_arm_gripper_testing_using_hardcoded_program.mp4` | Demonstration of gripper actuation and grasping capability    |
+| `Pick_and_place_test.mp4`   | Full demonstration of pick and place routine                  |
 | `README.md`               | This file                                                     |
 
 ---
@@ -69,7 +75,7 @@ Apart from the core goals, the following enhancements were implemented:
 ## ⚙️ Technologies Used
 
 - **FDM 3D Printing** – Fabrication of structural components
-- **Arduino UNO/Nano** – Microcontroller for motor control
+- **Arduino UNO** – Microcontroller for motor control
 - **Servo Motors (x6)** – Actuators for joints and gripper
 - **DC-DC Buck Converter** – Power management and surge protection
 - **Open Source Software** – GUI-based motor control via Serial interface
