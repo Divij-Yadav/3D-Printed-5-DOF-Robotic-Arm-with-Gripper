@@ -1,6 +1,6 @@
 # 3D Printed 5 DOF Robotic Arm with Gripper
 
-This project presents the design, fabrication, and control of a **5 Degrees of Freedom (DOF) Robotic Arm** with an attached gripper, built using **FDM 3D printing** and **open-source electronics/software**. The robotic arm is capable of basic pick-and-place operations and can be operated in both position and velocity control modes using an Arduino.
+This project presents the fabrication, and control of a **5 Degrees of Freedom (DOF) Robotic Arm** with an attached gripper, built using **FDM 3D printing** and **open-source electronics/software**. The robotic arm is capable of basic pick-and-place operations and can be operated in position control mode using either Arduino programming or using an open source GUI.
 
 ---
 
@@ -9,9 +9,7 @@ This project presents the design, fabrication, and control of a **5 Degrees of F
 1. **Fabrication** of the robotic arm using open-source 3D-printable designs and FDM (Fused Deposition Modeling) technology.
 2. **Motion control** using open-source Windows software to control each servo motor individually.
 3. **Hardcoded routines** for pick-and-place operations for repeatability and precision.
-4. **Arduino programming** to enable both:
-   - Position control mode
-   - Velocity control mode
+4. **Arduino programming** to enable Position control mode
 
 ---
 
